@@ -7,7 +7,7 @@ Trabalho prático do Grau B de Roteamento em Redes de Computadores
 
 ## Configuração da topologia
 
-Definidos 3 protocolos para a topologia: EIGRP, OSFP e RIP.
+Definidos 3 protocolos para a topologia: EIGRP, OSPF e RIP.
 
 ### EIGRP
 4 Routers com portas Gigabit Ethernet
