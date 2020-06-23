@@ -110,3 +110,18 @@ Router(config-router)#neighbor IP ROUTER A0 remote-as 100
 Router(config-router)#exit
 Router(config)#exit
 ```
+
+## Testes
+
+Para validar o funcionamento das configurações é realizado um teste entre os roteadores de borda (A0, B0, C0) para identificar todas as interfaces das redes e ping entre PCs para conexão externa.
+
+Comando para validar configuração do protocolo:
+```
+Router#show ip protocols
+```
+
+Comando para validar as interfaaces de rede identificadas:
+```
+Router#show ip route
+```
+
